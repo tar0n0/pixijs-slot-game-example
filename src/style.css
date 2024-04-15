@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+canvas { background-color: #222222; }
+* { padding: 0; margin: 0 }
+
+
+.container {
+    background-color: #ccc;
+    height: 1rem;
+    width: 30rem;
+    padding: 0.3rem 0.5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fill {
+    height: 100%;
+    background-color: #3284cc;
+    animation: prog 0.7s ease;
+    /*animation-delay: 1s;*/
+    /*animation-fill-mode: backwards;*/
+}
+
+/*@keyframes prog {*/
+/*    from {*/
+/*        width: 0;*/
+/*    }*/
+/*}*/

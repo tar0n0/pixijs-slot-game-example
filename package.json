@@ -1,0 +1,26 @@
+{
+  "name": "pixijs-typescript-slot-game",
+  "private": true,
+  "version": "0.0.6",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/howler": "^2.2.11",
+    "@pixi/lights": "^4.0.0",
+    "howler": "^2.2.4",
+    "pixi.js": "^7.4.2",
+    "tweedle.js": "^2.0.1"
+  },
+  "description": "### Get Started     . git clone [repo-url]     . open repo     . $ npm install     . $ npm run dev -- --host",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
+}
